@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: puge_test1106
+
+  datasource:
+    username: root
+    password: puge1234
+    url: jdbc:mysql://cdb-i6t8pnmq.cd.tencentcdb.com:10129/pugetest?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    #mysql8版本以上驱动包指定新的驱动类
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+
+server:
+  port: 8081
+  servlet:
+    context-path: /lx
